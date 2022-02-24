@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background: #42455a;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	margin: 50px;
+}
+.menu ul li a{
+	color: #b2b1b1;
+	text-decoration: none;
+	margin:0 20px;
+	cursor: pointer;
+}
+.logo{
+	width: 30px;
+	margin-top: -7px;
+	margin-right: 48px;
+}
+.active{
+	color: #19dafa !important;
+}
+.signup_btn{
+	position: absolute;
+	top: 40px;
+	right: 80px;
+	color: #fff !important;
+	border:2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.signup_btn span{
+display: block;
+	padding: 8px 22px;
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+}
+.app_text{
+	float: left;
+	width: 50%;
+}
+.app_text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.app_text p{
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 40px;
+line-height: 25px;
+color: #919191;
+}
+.app_pic{
+	width: 50%;
+	float: right;
+}
+.app_pic img{
+	width: 85%;
+	margin-top: -20px;
+	padding-left: 50px;
+}
+.play_btn{
+	margin-left: 40px;
+	display: inline-flex;
+}
+.play_btn_inner{
+	height: 50px;
+	width: 50px;
+	border:2px solid transparent;
+	border-radius: 50%;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+text-align: center;
+}
+.play_btn_inner .fa{
+	padding:18px 0;
+	font-size: 13px;
+	cursor: pointer;
+}
+small{
+	margin: auto 20px;
+	cursor: pointer;
+	letter-spacing: 3px;
+	color: #19dafa;
+	font-size: 12px;
+}
+.quick-links{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	background: linear-gradient(to right,#db1bf6,#19d7f8);
+}
+.quick-links ul{
+display: inline-flex;
+margin: 25px auto;
+text-align: center;
+}
+.quick-links ul li{
+	list-style: none;
+	margin: 0 50px;
+	cursor: pointer;
+}
+.quick-links ul li .fa{
+	font-size: 25px;
+	color: #fff;
+}
+.quick-links ul li p{
+	font-size: 15px;
+	font-size: 10px;
+	color: #fff;
+}
+.sociam-icons{
+	right: 72px;
+	bottom: 35px;
+	position: absolute;
+}
+.sociam-icons ul li{
+	list-style: none;
+	margin-top: 15px;
+	text-align: center;
+}
+.sociam-icons ul li a{
+	color: #999;
+	border-radius: 50%;
+	border:1px solid #999;
+	padding: 5px;
+	display: block;
+}
